@@ -3,7 +3,7 @@
 A minimalist portfolio website showcasing my work as a Data Scientist and AI/ML Engineer.
 
 ## 🚀 Live Site
-[bernard-portfolio.netlify.app](https://bernard-portfolio.netlify.app)
+[bernardoboateng.netlify.app](https://bernardoboateng.netlify.app)
 
 ## 🛠️ Built With
 - HTML5
