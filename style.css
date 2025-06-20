@@ -12,7 +12,7 @@ body {
     background-color: #fff;
     padding: 40px 20px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 
 /* Typography */
 h1, h2 {
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 1em;
 }
 
