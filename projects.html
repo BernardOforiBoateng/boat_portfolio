@@ -3,33 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bernard Ofori Boateng - Projects</title>
+    <meta name="description" content="Projects by Bernard Ofori Boateng - PhD Student in Computer Science">
+    <title>Projects | Bernard Ofori Boateng</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>hi, i am <span class="underline">bernard</span>!</h1>
-        
-        <h2>my projects</h2>
-        
-        <h3><a href="https://github.com/BernardOforiBoateng/finance-anomaly-detector" target="_blank">finance anomaly detector</a></h3>
-        <p>an end-to-end fraud detection system built with machine learning. features a react frontend for real-time transaction analysis, fastapi backend for high-performance api serving, and xgboost model achieving 92.2% roc-auc accuracy. includes docker deployment, comprehensive testing, and production-ready architecture. processes transactions in under 200ms with confidence scoring and risk level classification. <a href="https://anomaly-detector-g2ex.onrender.com" target="_blank">live demo</a></p>
-        
-        <h3><a href="https://github.com/BernardOforiBoateng/ant_colony_simulation" target="_blank">ant colony simulation</a></h3>
-        <p>multi-agent simulation demonstrating emergent intelligence and collective problem-solving. built with javascript and d3.js for real-time visualization. simulates 1,000+ concurrent agents following simple rules that lead to complex behaviors. explores concepts like swarm intelligence, pathfinding algorithms, and emergent patterns in distributed systems.</p>
-        
-        <h3><a href="https://github.com/BernardOforiBoateng/MovieLens-dataset-Analysis" target="_blank">movielens analysis</a></h3>
-        <p>comprehensive data analysis and machine learning project on the movielens dataset. includes exploratory data analysis, recommendation system implementation, and predictive modeling. uses collaborative filtering, matrix factorization, and deep learning approaches. features data visualization, user behavior analysis, and model performance comparison across different algorithms.</p>
-        
-        <div class="divider"></div>
-        
-        <div class="links">
-            <a href="index.html">back</a>
-            <span class="separator">|</span>
-            <a href="https://github.com/BernardOforiBoateng" target="_blank">github</a>
-            <span class="separator">|</span>
-            <a href="https://linkedin.com/in/bernardoforiboateng" target="_blank">linkedin</a>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Bernard Boateng</a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#research">Research</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="assets/cv.pdf" target="_blank">CV</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+            </button>
         </div>
+    </nav>
+
+    <div class="page-container">
+        <main class="main-content full-width">
+            <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+            <h1 class="projects-page-title">All Projects</h1>
+
+            <div class="project-card-large">
+                <h3><a href="https://github.com/BernardOforiBoateng/finance-anomaly-detector" target="_blank">Finance Anomaly Detector</a></h3>
+                <p>An end-to-end fraud detection system built with machine learning. Features a React frontend for real-time transaction analysis, FastAPI backend for high-performance API serving, and XGBoost model achieving 92.2% ROC-AUC accuracy. Includes Docker deployment, comprehensive testing, and production-ready architecture. Processes transactions in under 200ms with confidence scoring and risk level classification.</p>
+                <div class="project-links">
+                    <a href="https://anomaly-detector-g2ex.onrender.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="https://github.com/BernardOforiBoateng/finance-anomaly-detector" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card-large">
+                <h3><a href="https://github.com/BernardOforiBoateng/ant_colony_simulation" target="_blank">Ant Colony Simulation</a></h3>
+                <p>Multi-agent simulation demonstrating emergent intelligence and collective problem-solving. Built with JavaScript and D3.js for real-time visualization. Simulates 1,000+ concurrent agents following simple rules that lead to complex behaviors. Explores concepts like swarm intelligence, pathfinding algorithms, and emergent patterns in distributed systems.</p>
+                <div class="project-links">
+                    <a href="https://github.com/BernardOforiBoateng/ant_colony_simulation" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card-large">
+                <h3><a href="https://github.com/BernardOforiBoateng/MovieLens-dataset-Analysis" target="_blank">MovieLens Analysis</a></h3>
+                <p>Comprehensive data analysis and machine learning project on the MovieLens dataset. Includes exploratory data analysis, recommendation system implementation, and predictive modeling. Uses collaborative filtering, matrix factorization, and deep learning approaches. Features data visualization, user behavior analysis, and model performance comparison across different algorithms.</p>
+                <div class="project-links">
+                    <a href="https://github.com/BernardOforiBoateng/MovieLens-dataset-Analysis" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </main>
     </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Bernard Ofori Boateng</p>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>

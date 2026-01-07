@@ -3,46 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bernard Ofori Boateng</title>
+    <meta name="description" content="Bernard Ofori Boateng - PhD Student in Computer Science at Loyola University Chicago, researching reliable reasoning in AI systems">
+    <meta name="author" content="Bernard Ofori Boateng">
+    <title>Bernard Ofori Boateng | PhD Student</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>hi, i am <span class="underline">bernard</span>!</h1>
-        
-        <p>i am a data scientist and ai/ml engineer based in chicago, il.</p>
-        
-        <p>mainly work in machine learning and love building intelligent systems.</p>
-        
-        <h2>experience</h2>
-        <ul>
-            <li>ai/ml engineer @ loyola university chicago [jan 25' - present]</li>
-            <li>data scientist @ loyola university chicago [jan 25' - present]</li>
-            <li>data science intern @ loyola university chicago [may 24' - dec 24']</li>
-        </ul>
-        
-        <h2>projects</h2>
-        <ul>
-            <li><a href="projects.html">featured projects</a> : detailed project descriptions and technical implementations</li>
-        </ul>
-        
-        <h2>skills</h2>
-        <ul>
-            <li>languages: python, r, sql, javascript</li>
-            <li>ml/ai: scikit-learn, xgboost, lightgbm, openai gpt-4</li>
-            <li>data: pandas, numpy, spark, hadoop, tableau</li>
-            <li>deployment: flask, aws, docker</li>
-        </ul>
-        
-        <div class="divider"></div>
-        
-        <div class="links">
-            <a href="https://github.com/BernardOforiBoateng" target="_blank">github</a>
-            <span class="separator">|</span>
-            <a href="https://linkedin.com/in/bernardoforiboateng" target="_blank">linkedin</a>
-            <span class="separator">|</span>
-            <a href="mailto:bbofori90@gmail.com">email</a>
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-brand">Bernard Boateng</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="assets/cv.pdf" target="_blank">CV</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+            </button>
         </div>
+    </nav>
+
+    <div class="page-container">
+        <!-- Sidebar / Profile Section -->
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="assets/profile.jpg" alt="Bernard Ofori Boateng" class="profile-photo" onerror="this.style.display='none'">
+                <h1 class="profile-name">Bernard Ofori Boateng</h1>
+                <p class="profile-title">PhD Student, Computer Science</p>
+                <p class="profile-affiliation">Loyola University Chicago</p>
+            </div>
+
+            <div class="contact-links">
+                <a href="mailto:bbofori90@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/BernardOforiBoateng" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/bernardoforiboateng" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+
+            <div class="sidebar-section">
+                <a href="assets/cv.pdf" class="cv-download" target="_blank">
+                    <i class="fas fa-file-pdf"></i> Download CV
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About / Research Interests -->
+            <section id="about" class="content-section">
+                <h2>About Me</h2>
+                <p>I am a PhD student in Computer Science at Loyola University Chicago. My research focuses on <strong>reliable reasoning in AI systems</strong>, with specific interests in:</p>
+                <ul class="research-interests">
+                    <li>Inference-time constraints for tool-using agents</li>
+                    <li>Structured reasoning verification</li>
+                    <li>Formal methods for AI safety</li>
+                </ul>
+                <p>I am particularly interested in developing methods to ensure AI systems reason correctly when interacting with external tools and real-world data, especially in high-stakes domains like public health.</p>
+            </section>
+
+            <!-- News Section -->
+            <section id="news" class="content-section">
+                <h2>News</h2>
+                <ul class="news-list">
+                    <li>
+                        <span class="news-date">2025</span>
+                        <span class="news-content">Started PhD in Computer Science at Loyola University Chicago</span>
+                    </li>
+                    <li>
+                        <span class="news-date">Dec 2024</span>
+                        <span class="news-content">Completed Master of Science in Data Science</span>
+                    </li>
+                    <li>
+                        <span class="news-date">May 2025</span>
+                        <span class="news-content">Joined Nilotic Hoops AI as Full-Stack AI Engineer</span>
+                    </li>
+                    <li>
+                        <span class="news-date">Apr 2025</span>
+                        <span class="news-content">Promoted to AI/ML Research Engineer, developing autonomous data analysis agents</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Education -->
+            <section id="education" class="content-section">
+                <h2>Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>PhD in Computer Science</h3>
+                            <p class="institution">Loyola University Chicago</p>
+                            <p class="date">2025 - Present</p>
+                            <p class="description">Research Focus: Reliable Reasoning in Tool-Using AI Systems</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Master of Science in Data Science</h3>
+                            <p class="institution">Loyola University Chicago</p>
+                            <p class="date">December 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Research Experience -->
+            <section id="research" class="content-section">
+                <h2>Research Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>AI/ML Research Engineer</h3>
+                            <span class="experience-date">April 2025 - Present</span>
+                        </div>
+                        <p class="experience-org">Loyola University Chicago, Chicago, IL</p>
+                        <ul class="experience-details">
+                            <li>Developed autonomous data analysis agent with multi-step reasoning capabilities, enabling non-technical public health researchers to perform complex statistical analyses through natural language queries.</li>
+                            <li>Designed multi-model AI system (ChatMRPT) for malaria intervention prioritization, integrating geospatial analysis tools with LLM routing to process environmental raster data and generate actionable public health recommendations.</li>
+                            <li>Deployed production ML system on AWS infrastructure achieving sub-second response times for concurrent users, demonstrating scalability of AI-assisted analysis tools.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Data Scientist</h3>
+                            <span class="experience-date">January 2025 - March 2025</span>
+                        </div>
+                        <p class="experience-org">Loyola University Chicago, Chicago, IL</p>
+                        <ul class="experience-details">
+                            <li>Built ensemble machine learning model combining gradient boosting with spatial clustering to predict malaria transmission hotspots, achieving 95% classification accuracy and enabling targeted resource allocation for health interventions.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Data Science Research Intern</h3>
+                            <span class="experience-date">May 2024 - December 2024</span>
+                        </div>
+                        <p class="experience-org">Loyola University Chicago, Chicago, IL</p>
+                        <ul class="experience-details">
+                            <li>Developed texture-based segmentation model for satellite imagery classification, achieving 80% accuracy in distinguishing urban settlement patterns to support geographically-targeted public health planning.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Industry Experience -->
+            <section id="experience" class="content-section">
+                <h2>Industry Experience</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Full-Stack AI Engineer</h3>
+                            <span class="experience-date">May 2025 - Present</span>
+                        </div>
+                        <p class="experience-org">Nilotic Hoops AI, Chicago, IL</p>
+                        <ul class="experience-details">
+                            <li>Designed edge-optimized computer vision pipeline combining human pose estimation and object detection for athletic performance analysis, reducing network bandwidth requirements by 90% for deployment in low-connectivity regions.</li>
+                            <li>Built full-stack platform with resumable uploads and real-time data validation, enabling reliable athlete-to-scout video transmission over unstable 2G/3G networks.</li>
+                            <li>Established automated testing and deployment pipeline achieving 80%+ code coverage and less than 500ms API latency, supporting 1000+ concurrent platform users.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Selected Projects -->
+            <section id="projects" class="content-section">
+                <h2>Selected Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>ChatMRPT</h3>
+                        <p class="project-subtitle">AI-Powered Malaria Prioritization System</p>
+                        <p>Multi-model conversational AI with 10+ geospatial analysis tools for public health decision support; deployed for active use by research collaborators.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Fraud Detection System</h3>
+                        <p class="project-subtitle">Real-time ML Classification</p>
+                        <p>Real-time ML classification system achieving 92.2% ROC-AUC with less than 200ms inference, detecting 73.2% of fraudulent transactions.</p>
+                        <div class="project-links">
+                            <a href="https://anomaly-detector-g2ex.onrender.com" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/BernardOforiBoateng/finance-anomaly-detector" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="section-footer"><a href="projects.html">View all projects &rarr;</a></p>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills" class="content-section">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>AI & Machine Learning</h4>
+                        <p>LLM systems, multi-model routing, pose estimation (MoveNet), object detection (YOLO), PyTorch, scikit-learn, LangGraph</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Data Science & Analysis</h4>
+                        <p>Pandas, NumPy, GeoPandas, raster processing, spatial analysis, Plotly, statistical modeling, ensemble methods</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Full-Stack Development</h4>
+                        <p>FastAPI, Flask, React, TypeScript, PostgreSQL, Redis, WebSockets</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Cloud & Infrastructure</h4>
+                        <p>AWS (EC2, ALB, CloudFront, ElastiCache), Docker, GitHub Actions CI/CD</p>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Bernard Ofori Boateng</p>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Close nav when clicking a link (mobile)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
